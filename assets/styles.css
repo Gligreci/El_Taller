@@ -1,0 +1,22 @@
+h5{
+text-align: center;
+font-family: 'Gill Sans';
+}
+
+.icono_redes{
+height: 30px;
+}
+
+.barra-de-navegacion {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 100;
+background-color: rgb(184, 169, 128);
+}
+
+.a-nav{
+    color: rgb(233, 82, 7);
+    font-size: smaller;
+}
