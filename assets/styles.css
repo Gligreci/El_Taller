@@ -4,7 +4,9 @@ font-family: 'Gill Sans';
 }
 
 .icono_redes{
-height: 30px;
+height: 40px;
+padding-bottom:10px;
+
 }
 
 .barra-de-navegacion {
@@ -25,4 +27,13 @@ background-color: rgb(184, 169, 128);
 
 height: 200px;
 
+}
+
+p-modal{
+text-align: start;
+
+}
+
+m-color{
+    background-color: rgb(209, 29, 13)
 }
