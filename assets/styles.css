@@ -1,11 +1,27 @@
-h5{
+h4{
 text-align: center;
-font-family: 'Gill Sans';
+font-family: 'Helvetica';
+}
+
+h5{
+    text-align: center;
+    font-family: 'Helvetica';
+    }
+
+h3{
+text-align: center;
+font-family:Helvetica;
 }
 
 .icono_redes{
 height: 40px;
 padding-bottom:10px;
+
+}
+
+.p-modal-detalle{
+text-align: center;
+margin-top: 5%;
 
 }
 
@@ -25,15 +41,26 @@ background-color: rgb(184, 169, 128);
 
 .img-tumnb {
 
-height: 200px;
+height: 250px;
 
 }
 
-p-modal{
-text-align: start;
+.p-modal{
+text-align: center;
 
 }
 
-m-color{
+.m-color{
     background-color: rgb(209, 29, 13)
+}
+.titulo-taller{
+    text-align: left;
+}
+
+.img-taller{
+    margin-left: 5%;
+    margin-top: 5%;
+margin-bottom: 5%;
+margin-right: 5%;
+height: 250px;
 }

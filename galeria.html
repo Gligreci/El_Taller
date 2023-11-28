@@ -19,13 +19,13 @@
       <li class="nav-item">
       </li>
       <li class="nav-item">
-        <a class="nav-link" style= "color: aliceblue; font-size: smaller;" href="#galeria">Trabajos</a>
+        <a class="nav-link" style= "color: aliceblue; font-size: smaller;" href="">Trabajos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" style= "color: aliceblue; font-size: smaller" href="#talleres_cursos">Talleres/Cursos</a>
+        <a class="nav-link" style= "color: aliceblue; font-size: smaller" href="cursos.html">Talleres/Cursos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" style= "color: aliceblue; font-size: smaller" href="#">Quienes Somos</a>
+        <a class="nav-link" style= "color: aliceblue; font-size: smaller" href="index.html">Quienes Somos</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" style= "color: aliceblue;font-size: smaller" href="#footer">Contacto</a>
@@ -33,7 +33,7 @@
     </ul>
   </div>
  
-<h2 style="margin: 60px;">Galeria</h2>
+<h2 style="margin: 60px; color: rgb(99, 37, 19);" class="text-center"><b>Galeria</b></h2>
 
 <!-- ESpacio fotografias-->
 <div class="container text-center mb-5"> 
@@ -57,13 +57,13 @@
 <div class="container text-center mb-5"> 
   <div class="row row-cols-4">
     <div class="col flex">
-      <a data-bs-toggle="modal" data-bs-target="#modal_cajon_vintage"><img src="img/galeria/cajon_vintage (1).jpg" class="rounded img-tumnb shadow p-3 mb-5 bg-body-tertiary rounded" alt="..."></a>
+      <a data-bs-toggle="modal" data-bs-target="#modal_pasteleria"><img src="img/galeria/pasteleria (1).jpg" class="rounded img-tumnb shadow p-3 mb-5 bg-body-tertiary rounded" alt="..."></a>
     </div>
         <div class="col">
       <a data-bs-toggle="modal" data-bs-target="#modal_cajon_botella"><img src="img/galeria/cajonbotella (3).jpg" class="rounded img-tumnb shadow p-3 mb-5 bg-body-tertiary rounded" alt="..."></a>
     </div>
         <div class="col">
-          <a data-bs-toggle="modal" data-bs-target="#modal_crtel_navideño"><img src="img/galeria/cartel navideño (1).jpg" class="rounded img-tumnb shadow p-3 mb-5 bg-body-tertiary rounded" alt="..."></a>
+          <a data-bs-toggle="modal" data-bs-target="#modal_cartel_navideño"><img src="img/galeria/cartel navideño (1).jpg" class="rounded img-tumnb shadow p-3 mb-5 bg-body-tertiary rounded" alt="..."></a>
     </div>
      <div class="col">
       <a data-bs-toggle="modal" data-bs-target="#modal_lampara_telgo"><img src="img/galeria/lampara_telgo (2).jpg" class="rounded img-tumnb shadow p-3 mb-5 bg-body-tertiary rounded" alt="..."></a>
@@ -78,10 +78,10 @@
       <a data-bs-toggle="modal" data-bs-target="#modal_lata_esmaltada"><img src="img/galeria/lata_esmaltada (2).jpg" class="rounded img-tumnb shadow p-3 mb-5 bg-body-tertiary rounded" alt="..."></a>
     </div>
         <div class="col">
-      <a data-bs-toggle="modal" data-bs-target="#modal_latas"><img src="img/galeria/latas.jpg" class="rounded img-tumnb" alt="..."></a>
+      <a data-bs-toggle="modal" data-bs-target="#modal_latas"><img src="img/galeria/latas.jpg" class="rounded img-tumnb shadow p-3 mb-5 bg-body-tertiary rounded" alt="..."></a>
     </div>
         <div class="col">
-          <a data-bs-toggle="modal" data-bs-target="#modal_maquina_de_coser"><img src="img/galeria/maquina de coser (2).jpg" class="rounded img-tumnb shadow p-3 mb-5 bg-body-tertiary rounded" alt="..."></a>
+          <a data-bs-toggle="modal" data-bs-target="#modal_maquina"><img src="img/galeria/maquina de coser (2).jpg" class="rounded img-tumnb shadow p-3 mb-5 bg-body-tertiary rounded" alt="..."></a>
     </div>
      <div class="col">
       <a data-bs-toggle="modal" data-bs-target="#modal_mesita"><img src="img/galeria/mesita (6).jpg" class="rounded img-tumnb shadow p-3 mb-5 bg-body-tertiary rounded" alt="..."></a>
@@ -92,11 +92,56 @@
 
 
 
-
-
-
-
 <!-- fin ESpacio fotografias-->
+
+<!-- Modal frasco-->
+<div class="modal fade" id="modal_frasco" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content " style="background-color: rgb(233, 220, 193);">
+      <div class="modal-header">
+        <h6 class="modal-title fs-5" id="exampleModalLabel">Frascos y botellas</h6>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <!--Carrousel comienzo-->
+      <div class="modal-body">
+        <div id="carousel_frasco" class="carousel slide">
+          <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+              <img src="img/galeria/boetellas_frascos (2).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>🔩 Botella con chapita de metal <br>(se armó a partir de una lata de coca😮)</i></p>
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/boetellas_frascos (3).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>🔩Botella con decoupage industrial y stencil</i></p>
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/boetellas_frascos (1).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>🔩Frasco esmerilado( técnica sin aerosol ni líquidos para esmerilar) con engranajes en decoupage invertido💡</i></p>
+            </div>
+          </div>
+          
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel_frasco" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel_frasco" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!--Carrousel fin-->
+
+      <div class="modal-footer" style="background-color: rgb(151, 146, 110);">
+          <p>Fiel a nuestro estilo industrial, estos son los trabajos que presentamos para la 2da 
+            parte del Desafío Vacaciones de @lucilaolivetointeriores
+          </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal fin-->
 
 <!-- Modal caja herramientas-->
 <div class="modal fade" id="modal_caja_herramientas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -145,57 +190,6 @@
 </div>
 <!-- Modal fin-->
 
-<!-- Modal frasco-->
-<div class="modal fade" id="modal_frasco" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content " style="background-color: rgb(233, 220, 193);">
-      <div class="modal-header">
-        <h6 class="modal-title fs-5" id="exampleModalLabel">Frascos y botellas</h6>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <!--Carrousel comienzo-->
-      <div class="modal-body">
-        <div id="carousel_frasco" class="carousel slide">
-          <div class="carousel-inner">
-            
-            <div class="carousel-item active">
-              <img src="img/galeria/boetellas_frascos (2).jpg" class="d-block w-100" alt="...">
-              <p><i>🔩Botella con chapita de metal ( se armó a partir de una lata de coca😮)</i></p>
-            </div>
-            <div class="carousel-item">
-              <img src="img/galeria/boetellas_frascos (3).jpg" class="d-block w-100" alt="...">
-              <p><i>🔩Botella con decoupage industrial y stencil</i></p>
-            </div>
-            <div class="carousel-item">
-              <img src="img/galeria/boetellas_frascos (1).jpg" class="d-block w-100" alt="...">
-              <p><i>🔩Frasco esmerilado( técnica sin aerosol ni líquidos para esmerilar) con engranajes en decoupage invertido💡</i></p>
-            </div>
-          </div>
-          
-          <button class="carousel-control-prev" type="button" data-bs-target="#carousel_frasco" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carousel_frasco" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-      <!--Carrousel fin-->
-
-      <div class="modal-footer" style="background-color: rgb(151, 146, 110);">
-          <p>Fiel a nuestro estilo industrial, estos son los trabajos que presentamos para la 2da 
-            parte del Desafío Vacaciones de @lucilaolivetointeriores
-          </p>
-          
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Modal fin-->
-
-
 <!-- Modal caja baul-->
 <div class="modal fade" id="modal_caja_baul" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
@@ -211,16 +205,16 @@
             
             <div class="carousel-item active">
               <img src="img/galeria/cajabaul (2).jpg" class="d-block w-100" alt="...">
-              <p><i>🔩Lijamos y reparamos con enduido el cuerpo de la caja y tapa.</i></p>
+              <p class="p-modal-detalle"><i>🔩 Lijamos y reparamos con enduido el cuerpo de la caja y tapa.</i></p>
             </div>
             <div class="carousel-item">
               <img src="img/galeria/cajabaul (3).jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
               <img src="img/galeria/cajabaul (1).jpg" class="d-block w-100" alt="...">
-              <p><i>🔩Pintamos con pintura a la tiza negro <br>
-              🔩Hicimos efecto zinc en los bordes y aplicamos stencil con relieve <br>
-              🔩Completamos con efecto envejecido y protegimos con laca al agua</i></p>
+              <p><i>🔩 Pintamos con pintura a la tiza negro <br>
+              🔩 Hicimos efecto zinc en los bordes y aplicamos stencil con relieve <br>
+              🔩 Completamos con efecto envejecido y protegimos con laca al agua</i></p>
                 
             </div>
           </div>
@@ -249,7 +243,7 @@
 </div>
 <!-- Modal fin-->
 
-<!-- Modal cajon_kitchen-->
+<!-- Modal Cajon Kitchen-->
 <div class="modal fade" id="modal_cajon_kitchen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content " style="background-color: rgb(233, 220, 193);">
@@ -270,9 +264,19 @@
             </div>
             <div class="carousel-item">
               <img src="img/galeria/cajon_kitchen (3).jpg" class="d-block w-100" alt="...">
-            /div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/cajon_vintage (1).jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/cajon_vintage (2).jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/cajon_vintage (3).jpg" class="d-block w-100" alt="...">
+            </div>
           </div>
-          
+
+
           <button class="carousel-control-prev" type="button" data-bs-target="#carousel_cajon_kitchen" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -287,72 +291,487 @@
 
       <div class="modal-footer" style="background-color: rgb(151, 146, 110);">
         <p class="p-modal">Con tintes naturales y accesorios reciclados, te dejamos ideas para aplicar a estos cajoncitos ordenadores de pino.
-        <br>Talleres pátinas traslúcidas <a href="https://www.instagram.com/lucilaolivetointeriores/" target="_blank">@lucilaolivetointeriores</a>
-        <br>Insumos , herrajes y mucho más <a href="https://www.instagram.com/holaomdeco/" target="_blank">@holaomdeco</a></p>
-          
-          
+          <br>Talleres pátinas traslúcidas <a href="https://www.instagram.com/lucilaolivetointeriores/" target="_blank">@lucilaolivetointeriores</a>
+          <br>Insumos , herrajes y mucho más <a href="https://www.instagram.com/holaomdeco/" target="_blank">@holaomdeco</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal fin-->
 
+<!-- Modal pasteleria-->
+<div class="modal fade" id="modal_pasteleria" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content " style="background-color: rgb(233, 220, 193);">
+      <div class="modal-header">
+        <h6 class="modal-title fs-5" id="exampleModalLabel">Dulce reciclado en dos líneas ‼️‼️‼️</h6>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <!--Carrousel comienzo-->
+      <div class="modal-body">
+        <div id="carousel_pasteleria" class="carousel slide">
+          <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+              <img src="img/galeria/pasteleria (3).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>Está vez la propuesta surgió para una colega y repostera espectacular!
+                Nuestra amiga Mariana de @dulcemargarita_mq</i></p>
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/pasteleria (4).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>El día que vio nuestra publicación del reciclado de la lata Patisserie, me dijo "separame una para mí nueva línea de alfajores artesanales" y..... como no hacerlo!!!</i></p>
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/pasteleria (5).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>Entonces redoblamos la apuesta y le enviamos dos propuestas de reciclado pensadas para su emprendimiento: Línea Shabby y Línea Terra</i></p>
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/pasteleria (2).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i></i></p>
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/pasteleria (1).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>Esperamos haberla sorprendido, tal como nos sorprende a nosotros cada vez que envía una de sus creaciones.
+                👏🏻👏🏻👏🏻👏🏻🔥🎂
+                </i></p>
+            </div>
+
+          </div>
+          
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel_pasteleria" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel_pasteleria" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!--Carrousel fin-->
+
+      <div class="modal-footer" style="background-color: rgb(151, 146, 110);">
+     </div>
+    </div>
+  </div>
+</div>
+<!-- Modal fin-->
+
+<!-- Modal cajon botella-->
+<div class="modal fade" id="modal_cajon_botella" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content " style="background-color: rgb(233, 220, 193);">
+      <div class="modal-header">
+        <h6 class="modal-title fs-5" id="exampleModalLabel">Rescate cajón ciruja 😜♻️</h6>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <!--Carrousel comienzo-->
+      <div class="modal-body">
+        <div id="carousel_cajon_botella" class="carousel slide">
+          <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+              <img src="img/galeria/cajonbotella (1).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>🛠️ Se realizó lavado de madera porque no sabíamos 
+                si lo queríamos dejar en crudo o darle color</i></p>
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/cajonbotella (2).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>🛠️ Nos decidimos por un decapado grueso en toda la 
+                superficie y esténcil para completar</i></p>
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/cajonbotella (3).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>🛠️ Protegimos con laca agua mate</i></p>
+            </div>
+
+
+          </div>
+          
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel_cajon_botella" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel_cajon_botella" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!--Carrousel fin-->
+
+      <div class="modal-footer" style="background-color: rgb(151, 146, 110);">
+          <p>
+            Tirado en la esquina de casa y cirujeado por nosotros para darle un nuevo uso...Convertido en estante para botellas !!!!!
+          </p>
+     </div>
+    </div>
+  </div>
+</div>
+<!-- Modal fin-->
+
+
+<!-- Modal Cartel Navideño-->
+<div class="modal fade" id="modal_cartel_navideño" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content " style="background-color: rgb(233, 220, 193);">
+      <div class="modal-header">
+        <h6 class="modal-title fs-5" id="exampleModalLabel">Temporada de fiestas ‼️‼️</h6>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <!--Carrousel comienzo-->
+      <div class="modal-body">
+        <div id="carousel_cartel_navideño" class="carousel slide">
+          <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+              <img src="img/galeria/cartel navideño (4).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>Está vez le tocó el reciclado a la tabla de picadas, que tantas veces rescatamos de ser 
+                tirada después de la juntada con amigos 💪🏻🍾</i></p>
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/cartel navideño (3).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>Les dejamos nuestra versión "Taller"</i></p>
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/cartel navideño (2).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i></i></p>
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/cartel navideño (1).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>Los amigos piden más picadas 😁😜</i></p>
+            </div>
+
+
+          </div>
+          
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel_cartel_navideño" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel_cartel_navideño" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!--Carrousel fin-->
+
+      <div class="modal-footer" style="background-color: rgb(151, 146, 110);">
+          <p>
+            Porque no podía faltar el cartel navideño de la mano de @lucilaolivetointeriores
+          </p>
+     </div>
+    </div>
+  </div>
+</div>
+<!-- Modal fin-->
+
+<!-- Modal lampara telgo-->
+<div class="modal fade" id="modal_lampara_telgo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content " style="background-color: rgb(233, 220, 193);">
+      <div class="modal-header">
+        <h6 class="modal-title fs-5" id="exampleModalLabel">Telgopor creativo</h6>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <!--Carrousel comienzo-->
+      <div class="modal-body">
+        <div id="carousel_lampara_telgo" class="carousel slide">
+          <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+              <img src="img/galeria/lampara_telgo (3).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>🔩 Tapa de yogurt + tapa de queso crema+pico de botella + pote de telgopor + una tira de alambre con luz a pila</i></p>
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/lampara_telgo (1).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>🔩 Aplicamos técnica decoupage</i></p>
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/lampara_telgo (2).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>Acá les dejamos el resultado </i></p>
+            </div>
+
+          </div>
+          
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel_lampara_telgo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel_lampara_telgo" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!--Carrousel fin-->
+
+      </div>
+  </div>
+</div>
+<!-- Modal fin-->
+
+<!-- Modal Lata Esmaltada-->
+<div class="modal fade" id="modal_lata_esmaltada" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content " style="background-color: rgb(233, 220, 193);">
+      <div class="modal-header">
+        <h6 class="modal-title fs-5" id="exampleModalLabel">Efecto enlozado con transferencia
+        </h6>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <!--Carrousel comienzo-->
+      <div class="modal-body">
+        <div id="carousel_lata_esmaltada" class="carousel slide">
+          <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+              <img src="img/galeria/lata_esmaltada (3).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>Nuevo uso para la lata de dulce ♻️ y una ayuda a nuestro 🌎
+                </i></p>
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/lata_esmaltada (1).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>🔩Pintura a la tiza blanco/negro <br>🔩Laca o barniz al agua</i></p>
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/lata_esmaltada (2).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>🔩Imagen de transferencia <br>
+                🔩Alambre y corcho para las manijas</i></p>
+            </div>
+
+          </div>
+          
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel_lata_esmaltada" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel_lata_esmaltada" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!--Carrousel fin-->
+
+
+      <div class="modal-footer" style="background-color: rgb(151, 146, 110);">
+        <p class="p-modal-detalle">
+          Distintas técnicas y distintas experiencias para ser compartidas en una tarde 
+          donde el amor por el reciclado y la Deco se encontraron
+        </p>
+        
+    </div>
+    </div>
+  </div>
+</div>
+<!-- Modal fin-->
+
+<!-- Modal Latas-->
+<div class="modal fade" id="modal_latas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content " style="background-color: rgb(233, 220, 193);">
+      <div class="modal-header">
+        <h6 class="modal-title fs-5" id="exampleModalLabel">Desafío creativo latas enteladas
+
+        </h6>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <!--Carrousel comienzo-->
+      <div class="modal-body">
+        <div id="carousel_latas" class="carousel slide">
+          <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+              <img src="img/galeria/latas.jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>Logrado con las botamangas de los pantalones de trabajo,
+                 porque no se salva ni la ropa!!!!😜😜
+                </i></p>
+            </div>
+
+          </div>
+               
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel_latas" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel_latas" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!--Carrousel fin-->
+
+    </div>
+  </div>
+</div>
+<!-- Modal fin-->
+
+<!-- Modal maquina de coser-->
+<div class="modal fade" id="modal_maquina" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content " style="background-color: rgb(233, 220, 193);">
+      <div class="modal-header">
+        <h6 class="modal-title fs-5" id="exampleModalLabel">Máquina de coser escritorio</h6>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <!--Carrousel comienzo-->
+      <div class="modal-body">
+        <div id="carousel_maquina" class="carousel slide">
+          <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+              <img src="img/galeria/maquina de coser (5).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>
+                🔩 Palets reutilizados pintado de blanco a compresor, con hidroesmalte epoxi y decapados
+              </i></p>
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/maquina de coser (3).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>
+                🔩 Torre para cds vieja y con humedad, la cual desarmamos y acoplamos 
+                a los palets generando la alzada del mueble
+              </i></p>
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/maquina de coser (4).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>
+                🔩 Torre para cds vieja y con humedad, la cual desarmamos y acoplamos 
+                a los palets generando la alzada del mueble
+              </i></p>                
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/maquina de coser (1).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>🔩 Pie de máquina oxidado pintado de blanco a compresor, con hidroesmalte epoxi.</i></p>                
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/maquina de coser (2).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>Una vez terminado se aplicó transferencia ☺️💯 !!!!!!
+                    Esperamos les de ideas para aplicar a sus propios reciclados ♻️🌎💪🏻💪🏻💪🏻
+                </i></p>                
+            </div>
+
+          </div>
+          
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel_maquina" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel_maquina" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!--Carrousel fin-->
+
+      <div class="modal-footer" style="background-color: rgb(151, 146, 110);">
+        <p>
+          Hoy pasamos a compartir un trabajo que hicimos hace un tiempo, cuando comenzamos a reciclar objetos más grandes
+          Y lo más importante es que reciclamos 3 objetos de descarte para llegar a este escritorio ♻️🌎
+      
         </p>
       </div>
     </div>
   </div>
 </div>
-</div>
 <!-- Modal fin-->
 
+<!-- Modal mesita-->
+<div class="modal fade" id="modal_mesita" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content " style="background-color: rgb(233, 220, 193);">
+      <div class="modal-header">
+        <h6 class="modal-title fs-5" id="exampleModalLabel">Mesita matera con onda‼️‼️</h6>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <!--Carrousel comienzo-->
+      <div class="modal-body">
+        <div id="carousel_mesita" class="carousel slide">
+          <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+              <img src="img/galeria/mesita (4).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>Partimos de una mesita de pino, esas que se compran 
+                en un momento de apuro pero que casi nunca les llega la hora de ser pintadas 😉</i></p>
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/mesita (1).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>A pesar del paso del tiempo y de las manchas 👀, 
+                le pusimos onda y la dejamos así!</i></p>
+            </div>
+            <div class="carousel-item">
+              <img src="img/galeria/mesita (5).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i>
+                🖌️Base tiza color negro <br>
+                🖌️Imagen stencil color piedra <br>
+                🖌️Protección Hidrolaca
+              </i></p>
+           </div>
+            <div class="carousel-item">
+              <img src="img/galeria/mesita (6).jpg" class="d-block w-100" alt="...">
+              <p class="p-modal-detalle"><i> Terminada !!!</i></p>
+                
+            </div>
 
 
+          </div>
+          
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel_mesita" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel_mesita" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!--Carrousel fin-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <div class="modal-footer" style="background-color: rgb(151, 146, 110);">
+        <p>
+          Si tenés una mesita o algún mueble que siempre miras de reojo pero al cual 
+          seguís postergando, te decimos que nunca es tarde para comenzar!!!!
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal fin-->
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
  
  </body>
- <div class="container" id="footer">
+
+ <div class="container-fluid" id="footer" style="background-color: black;">
   <footer class="row py-5 my-5 border-top">
     
     <div class="col">
       <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
         <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
       </a>
-      <p class="text-body-secondary">&copy; El taller de Lanus 2023</p>
+      <p class="text-body-secondary" style="color: rgb(184, 169, 128);">&copy; El taller de Lanus 2023</p>
     </div>
 
       
     <div class="col">
-      <h5 class="text-start">Contacto</h5>
+      <h5 class="text-start" style="color: rgb(184, 169, 128);">Contacto</h5>
       <br>
       <ul class="nav flex-column">
-        <li class="nav-item mb-2">Dirección: <b>Ituzaingó 2101</b></li>
-        <li class="nav-item mb-2">Ciudad: <b>Lanús</b></li> 
-        <li class="nav-item mb-2">Provincia: <b>Buenos Aires</b></li>
-        <li class="nav-item mb-2">Mail: <b>eltallerenlanus@gmail.com.ar</b></li>
+        <li class="nav-item mb-2" style="color: rgb(184, 169, 128);">Dirección: <b>Ituzaingó 2101</b></li>
+        <li class="nav-item mb-2" style="color: rgb(184, 169, 128);">Ciudad: <b>Lanús</b></li> 
+        <li class="nav-item mb-2" style="color: rgb(184, 169, 128);">Provincia: <b>Buenos Aires</b></li>
+        <li class="nav-item mb-2" style="color: rgb(184, 169, 128);">Mail: <b>eltallerenlanus@gmail.com.ar</b></li>
       </ul>
     </div>
 
     
     <div class="col align-items-center">
-      <h5>Redes</h5>
+      <h5 style="color: rgb(184, 169, 128);">Redes</h5>
       <br>
           <a class="link-body-emphasis" href="https://www.facebook.com/phraquel?locale=es_LA" target ="_blank"><img src="img/logos/facebook (1).png" class="icono_redes mx-auto d-block" alt="facebook"></a>
           <a class="link-body-emphasis" href="https://www.instagram.com/el_taller_en_lanus/" target="_blank"><img src="img/logos/instagram (1).png" class="icono_redes mx-auto d-block" alt="instagram"></a>
@@ -362,8 +781,6 @@
     </div>
   </footer>
 </div>
-
-
 
 
 </html>
